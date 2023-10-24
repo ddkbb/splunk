@@ -13,3 +13,5 @@ index="wls" EventID=4624 LogonType=2
 | dedup TargetUserName
 | table_time, EventID, TargetUserName, Computer
   use | to add more commands
+  dedup TargetUserName asks for unique users
+  table_time, EventID, TargetUserName, Computer is tabling out fields
