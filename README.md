@@ -8,3 +8,8 @@ index="wls"
 
 index="wls" EventID=4624 LogonType=2
   searches for specific events and types
+
+index="wls" EventID=4624 LogonType=2
+| dedup TargetUserName
+| table_time, EventID, TargetUserName, Computer
+  use | to add more commands
