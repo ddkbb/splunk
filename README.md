@@ -17,3 +17,4 @@ index="wls" EventID=4624 LogonType=2
   table_time, EventID, TargetUserName, Computer is tabling out fields
 
 Earliest=10/15/2020:00:00:00 latest=10/15/2020:12:00:00 index=wls EventID=4624
+  search in a specfic timeframe
